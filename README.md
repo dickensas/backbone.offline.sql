@@ -18,7 +18,6 @@ To use Backbone.offline.sql include the javascript in order
 ````
 
 
-
 ## How to use
 
 Simply continue the same as specified in Backbone.offline
