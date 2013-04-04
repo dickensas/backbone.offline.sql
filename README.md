@@ -19,7 +19,7 @@ To use Backbone.offline.sql include the javascript in order
 
 ## How to use
 
-Simply continue the same same as specified in Backbone.offline
+Simply continue the same as specified in Backbone.offline
 
 ## How it works
 
