@@ -32,7 +32,7 @@ this.storage = new Offline.Storage('books', this);
 ## Fallback
 
 ````
-collection.storage.setup({dbtype: "localStorage"}
+collection.storage.setup({dbtype: "localStorage"});
 ````
 
 This function call will make the Backbone.offline work as usual
@@ -43,7 +43,7 @@ implementation for IndexedDB
 
 ### Special thanks
 
-To Aleksey Kulikov for [backbone.offline](https://raw.github.com/Ask11/backbone.offline)
+To Aleksey Kulikov for [Backbone.offline](https://raw.github.com/Ask11/backbone.offline)
 
 ### License
 
