@@ -8,15 +8,17 @@ The library requirements are Underscore, Backbone, Backbone.offline.
 
 ## Installation
 
-To use Backbone.offline.sql include the javascript in order
+To use Backbone.offline.sql include the JavaScript in order
 ````
 <script src="js/jquery-1.9.1.js"></script>
 <script src="js/underscore-1.4.4.js"></script>
-<script src="js/backbone-0.9.1.js"></script>
+<script src="js/backbone-0.9.10.js"></script>
 <script src="js/backbone.offline.js"></script>
 <script src="js/backbone.offline.sql.js"></script>
 ````
 
+Here backbone 0.9.10 is used, 
+There is some issues with .save and .sync in Backbone 1.0.0
 
 ## How to use
 
@@ -25,7 +27,7 @@ Simply continue the same as specified in Backbone.offline
 ## How it works
 
 The wrapper automatically redirect all your add, delete, update operations to websql instead of localStorage
-It creates the DB, Tables automatically with the name of the collection specified in
+It creates the DB, Tables automatically with the name of the collection specified in the storage argument
 ````
 this.storage = new Offline.Storage('books', this);
 ````
