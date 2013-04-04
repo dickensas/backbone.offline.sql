@@ -48,4 +48,4 @@ To Aleksey Kulikov for [backbone.offline](https://raw.github.com/Ask11/backbone.
 ### License
 
 Licensed under MIT license. © 2013 Dickens A S, All Rights Reserved
-[Full license text](https://github.com/dickensas/backbone.offline.sql/LICENSE)
+[Full license text](https://github.com/dickensas/backbone.offline.sql/LICENSE.md)
